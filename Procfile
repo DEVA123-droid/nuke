@@ -1,1 +1,1 @@
-worker: python dmass.py
+worker: python nuke.py
