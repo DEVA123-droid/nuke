@@ -55,8 +55,8 @@ async def s(ctx):
     await bot.say("started hacking....") #idk ignore this just to make sure some people that this bot isnt dangerous
     time.sleep(2)
     for i in range (0,10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000):
-        await bot.say("LOL") #text 1 goes here
-        await bot.say("Group is hacked!😈") #text 2 goes here  	
+        await bot.say("+hqcoin alt46") #text 1 goes here
+        await bot.say("Done") #text 2 goes here  	
         await asyncio.sleep(65*60)
  
 bot.run ("NjIyMTIwMjU4OTYyMDYzMzgw.XXvQ7A.GWuDrVanrwRVD32ZpLMzI0c50Cc") #your bot token (please dont use your discord account token otherwise your account will get banned maybe)
