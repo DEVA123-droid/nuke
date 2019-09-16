@@ -57,6 +57,6 @@ async def s(ctx):
     for i in range (0,10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000):
         await bot.say("LOL") #text 1 goes here
         await bot.say("Group is hacked!😈") #text 2 goes here  	
-        time.sleep(3900)
+        time.sleep(100)
  
 bot.run ("NjIyMTIwMjU4OTYyMDYzMzgw.XXvQ7A.GWuDrVanrwRVD32ZpLMzI0c50Cc") #your bot token (please dont use your discord account token otherwise your account will get banned maybe)
