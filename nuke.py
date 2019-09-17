@@ -52,8 +52,8 @@ async def c(ctx):
  
 @bot.command(pass_context=True)
 async def s(ctx):
-  #  await bot.say("started hacking....") #idk ignore this just to make sure some people that this bot isnt dangerous
-   # time.sleep(2)
+     await bot.say("started hacking....") #idk ignore this just to make sure some people that this bot isnt dangerous
+     time.sleep(2)
     for i in range (0,10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000):
         await bot.say("**LOL GROUP IS HACKED**") #text 1 goes here	
         #await asyncio.sleep(65*60)
