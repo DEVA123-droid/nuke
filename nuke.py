@@ -1,4 +1,3 @@
-
 import discord
 from discord.ext.commands import bot
 from discord.ext import commands
@@ -60,4 +59,4 @@ async def s(ctx):
         await bot.say("GROUP IS HACKED") #text 2 goes here
 
 
- bot.run ("NjIyMTIwMjU4OTYyMDYzMzgw.XYEfng.jqLC_8wmcnQ8stivmiYRV6q_I3o") #your bot token (please dont use your discord account token otherwise your account will get banned maybe)
+ bot.run("NjIzNTgwMzUxMzc3MTc4NjI0.XYEgiw.6a5MVwpiPA0lnHC40jZrCCZ4C9A") #your bot token (please dont use your discord account token otherwise your account will get banned maybe)
