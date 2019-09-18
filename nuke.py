@@ -14,7 +14,6 @@ import traceback
 import json
 from discord.utils import get
 
-
  bot = commands.Bot(command_prefix='!')
 
  @bot.event
