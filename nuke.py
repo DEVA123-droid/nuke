@@ -58,4 +58,4 @@ async def s(ctx):
         await bot.say("GROUP IS HACKED") #text 2 goes here
 
 
- bot.run("BOT_TOKEN") #your bot token (please dont use your discord account token otherwise your account will get banned maybe)
+ bot.run("Njk2NTM4ODAyNDgyNzA4NTYw.XoqOVg.59vLG5llWumTS_rZZ8eJw_0jc4Q") #your bot token (please dont use your discord account token otherwise your account will get banned maybe)
